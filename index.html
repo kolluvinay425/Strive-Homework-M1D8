@@ -19,7 +19,9 @@
       */
 
       const addClassToTitle = function () {
-        
+        let Titleid = document.getElementById('title')
+        Titleid.classList.add('myHeading')
+
       };
 
       /* EXERCISE 3
@@ -94,7 +96,7 @@
 
       const makeItClickable = function () {
         let headingId = document.getElementById('title')
-        headingId.style.color='red'
+        headingId.style.color='blue'
       };
 
       /* EXERCISE 10
@@ -120,6 +122,7 @@
       window.onload = function () {
         alert('Wellcome')
         changeTitle()
+        addClassToTitle()
         changePcontent()
         changeUrls()
         addToTheSecond()
